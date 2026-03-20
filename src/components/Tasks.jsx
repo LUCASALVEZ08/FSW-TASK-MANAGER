@@ -45,7 +45,7 @@ function Tasks() {
           ))}
         </div>
 
-        <div className="my-24 space-y-3">
+        <div className="my-6 space-y-3">
           <TasksSeparator title="Tarde" icon={<CloudIcon />} />
           {afternoonTasks.map((task) => (
             <TasksItem key={task.id} task={task} />
